@@ -26,7 +26,7 @@ public class Main {
      * @return new array whith new element
      */
     public static int[] arrayFill(int arr[],int numberPoint){
-    //int array[] = new int[arr.length+1];
+
     int pointInCircle[] = resizeArray(arr,arr.length+1);
         pointInCircle[arr.length] = numberPoint;
 
